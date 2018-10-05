@@ -1,4 +1,4 @@
-function fadeOut() {
+function enterText().click {
   TweenMax.to(".btn", 0.1, {
     y: -100,
     opacity: 0
