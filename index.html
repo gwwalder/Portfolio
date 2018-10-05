@@ -3,19 +3,33 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/master.css">
-    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Porfolio</title>
   </head>
   <body>
-    <h1>testing</h1>
+    <div class="landingAnimation">
+
+      <div class="overlay">
+        <p class="screen">ENTER</p>
+        <div class="intro">
+          <button class="btn" onclick="fadeOut()">ENTER</button>
+
+        </div>
+      </div>
+      <div class="overlay2"></div>
+      <h1 class="welc">Welcome</h1>
+      <p class="data">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
     <div class="container">
-      <div class="glitchImage" style="background-image: url('img/KB.png')">
-
-      </div>
+      <div class="glitchImage" style="background-image: url('img/KB.png')"></div>
 
     </div>
-  <script src="js/glitch.js"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   <script src="https://cdn.rawgit.com/hmongouachon/mgGlitch/master/src/mgGlitch.min.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/glitch.js"></script>
   </body>
 </html>
