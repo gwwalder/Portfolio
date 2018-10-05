@@ -1,7 +1,7 @@
+
 $(function() {
-  $(".glitchImage").mgGlitch({
-    destroy: false,
-    glitch: true,
+  $(".bgImg").mgGlitch({
+    glitch: false,
     scale: true,
     blend: true,
     blendModeType: 'hue',
