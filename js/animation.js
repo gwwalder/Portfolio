@@ -1,4 +1,6 @@
-function enterText().click {
+
+$('#click').on('click',
+function fadeOut() {
   TweenMax.to(".btn", 0.1, {
     y: -100,
     opacity: 0
@@ -32,4 +34,4 @@ TweenMax.to(".welc", 2, {
   delay: 3.2,
   ease: Power2.easeInOut
 });
-};
+});

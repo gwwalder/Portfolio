@@ -1,7 +1,8 @@
 
 $(function() {
   $(".bgImg").mgGlitch({
-    glitch: false,
+    destroy: true;
+    glitch: true,
     scale: true,
     blend: true,
     blendModeType: 'hue',
