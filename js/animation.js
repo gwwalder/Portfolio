@@ -16,11 +16,11 @@ function fadeOut() {
     ease: Power2.easeInOut
   });
   TweenMax.to(".overlay", 1, {
-    top: "-110%",
+    top: "-120%",
     ease: Expo.easeInOut
   })
 TweenMax.to(".overlay2", 2, {
-  top: "-110%",
+  top: "-120%",
   ease: Expo.easeInOut
 });
 TweenMax.from(".welc", 2, {

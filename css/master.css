@@ -1,3 +1,13 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -40,6 +50,7 @@ body {
   width: 100%;
   height: 100vh;
   background: #48A9A6;
+  color:
 }
 
 .overlay {
@@ -67,7 +78,6 @@ body {
 .bgImg {
 
   filter: grayscale(1);
-    filter: brightness(50%);
   position: absolute;
   width: 100%;
   height: 100%;
