@@ -24,14 +24,13 @@ TweenMax.to(".overlay2", 2, {
   ease: Expo.easeInOut
 });
 TweenMax.from(".welc", 2, {
-  delay: 0.5,
   opacity: 0,
   ease: Power2.easeInOut
 });
-TweenMax.to(".welc", 2, {
+TweenMax.to(".testHeader", 4, {
+  delay: 0.8,
   opacity: 1,
-  y: -300,
-  delay: 3.2,
+  y: -150,
   ease: Power2.easeInOut
 });
 });

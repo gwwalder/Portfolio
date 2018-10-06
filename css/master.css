@@ -1,48 +1,13 @@
 * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-    }
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.welc {
-  width: 60%;
-  margin: 0 auto;
-  z-index: -1;
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  transform: translate(0, -50%);
-}
-
-.welc h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 54px;
-  color: #101010;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.welc p {
-  margin-top: 0;
-  text-align: left;
-  color: #101010;
-  font-weight: 400;
-}
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+font-family: 'Montserrat', sans-serif;
+ }
 
 .overlay2 {
   z-index: 0;
@@ -76,8 +41,6 @@ body {
 }
 
 .bgImg {
-
-  filter: grayscale(1);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -87,6 +50,17 @@ body {
   background-size: cover;
   opacity: 1;
   z-index: -2;
+}
+.bgImg2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
 }
 
 button {
@@ -135,7 +109,14 @@ h1 {
   animation: enterText 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
   animation-delay: 1s;
 }
-
+.testHeader{
+  color: #ffff;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 125%;
+  z-index: -1;
+}
 @keyframes enterText {
   0% {
     left: 0;
@@ -185,4 +166,33 @@ h1 {
   100% {
     color: #ffff;
   }
+}
+@media only screen and (max-width: 600px) {
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: #636363;
+        font-size: 30px;
+        padding: 0.4em 1em;
+        position: absolute;
+        top: 40%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+    }
+    button {
+      background: none;
+      border: none;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #636363;
+      font-size: 30px;
+      -webkit-animation: colorchange 0.5s infinite alternate;
+    }
+    #click {
+      top: 47%;
+      left: 70%;
+    }
 }
