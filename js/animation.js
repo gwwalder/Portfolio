@@ -23,10 +23,6 @@ TweenMax.to(".overlay2", 2, {
   top: "-120%",
   ease: Expo.easeInOut
 });
-TweenMax.from(".welc", 2, {
-  opacity: 0,
-  ease: Power2.easeInOut
-});
 TweenMax.to(".testHeader", 4, {
   delay: 0.8,
   opacity: 1,

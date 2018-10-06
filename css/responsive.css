@@ -26,4 +26,8 @@
       top: 47%;
       left: 70%;
     }
+    .bgImg2, .bgImg {
+    left: 50%;
+   margin-left: -512px;   /* 50% */
+ }
 }
